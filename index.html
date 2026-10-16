@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <title>Unlimited Data Works — Interactive Division | Game Development Studio</title>
+  <meta name="description" content="The Interactive Division of Unlimited Data Works LLC is an independent game studio. First game: Scour & Sorcery, a cozy first-person restoration sim for PlayStation 5 and PC. In development.">
+  <meta property="og:title" content="Unlimited Data Works — Interactive Division">
+  <meta property="og:description" content="Independent game studio. First game: Scour & Sorcery — a cozy first-person magic-academy restoration sim for PlayStation 5 and PC. In development.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://games.udataworks.com/">
+  <meta name="twitter:card" content="summary">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+  <header>
+    <div class="brand"><span class="brand-mark">Unlimited Data Works LLC</span> &middot; Interactive Division</div>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="scour-and-sorcery.html">Scour &amp; Sorcery</a>
+      <a href="about.html">About</a>
+      <a href="https://www.udataworks.com">udataworks.com</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="eyebrow">Interactive Division &middot; Unlimited Data Works LLC</div>
+    <h1>The studio behind Scour &amp; Sorcery</h1>
+    <p>An independent game studio making original, premium titles with the discipline of mission-critical software. The first game is a cozy first-person restoration sim for PlayStation 5 and PC.</p>
+    <a href="scour-and-sorcery.html" class="cta-btn">Meet Scour &amp; Sorcery</a>
+  </section>
+
+  <div class="container">
+    <section class="block">
+      <h2 class="section-title">Current game</h2>
+      <div class="project-grid">
+        <a class="project-card" href="scour-and-sorcery.html">
+          <span class="status-badge">In development — tech prototype (M0)</span>
+          <h3>Scour &amp; Sorcery</h3>
+          <p class="genre">First-person cozy restoration / cleaning sim with light mystery &middot; No combat &middot; PS5 &amp; PC (Steam)</p>
+          <p>A long-abandoned academy of magic is reopening, and you are its new caretaker. Restore it wing by wing with spells instead of a pressure washer — and discover why it closed.</p>
+          <p class="more">View the project &rarr;</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="block">
+      <h2 class="section-title">How the studio builds</h2>
+      <div class="benefits">
+        <div class="benefit">
+          <h3>Engineering-first</h3>
+          <p>Built on a 25-year foundation of mission-critical software. The tech is a feature, not an afterthought.</p>
+        </div>
+        <div class="benefit">
+          <h3>Original IP</h3>
+          <p>Original worlds and mechanics — no licenses, no reskins. Original characters, art, and systems.</p>
+        </div>
+        <div class="benefit">
+          <h3>Scope with intent</h3>
+          <p>Small, focused projects with a clear core loop. Scope is capped so the game ships finished.</p>
+        </div>
+        <div class="benefit">
+          <h3>Platform-native</h3>
+          <p>Designed to feel at home on the hardware — including DualSense haptics and adaptive triggers on PlayStation 5.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="contact">
+      <h2 class="section-title">Get in touch</h2>
+      <p>Platform partnerships, press, and collaboration inquiries are welcome.</p>
+      <form action="https://formspree.io/f/xeaevweb" method="post" autocomplete="off">
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName" name="firstName" required>
+
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName" name="lastName" required>
+
+        <label for="organization">Studio / Organization</label>
+        <input type="text" id="organization" name="organization">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="inquiry">Inquiry</label>
+        <select id="inquiry" name="inquiry">
+          <option value="platform-partnership">Platform Partnership</option>
+          <option value="press-media">Press / Media</option>
+          <option value="collaboration">Collaboration</option>
+          <option value="other">Other</option>
+        </select>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+      <p>More about the studio and its founder is on the <a href="about.html">About</a> page.</p>
+    </section>
+  </div>
+
+  <footer>
+    <div class="footer-nav">
+      <a href="index.html">Home</a>
+      <a href="scour-and-sorcery.html">Scour &amp; Sorcery</a>
+      <a href="about.html">About</a>
+      <a href="https://www.udataworks.com">Unlimited Data Works</a>
+    </div>
+    <p>&copy; <span id="year"></span> Unlimited Data Works LLC</p>
+    <p class="footer-legal"><a href="privacy.html">Privacy</a> &middot; <a href="terms.html">Terms</a> &middot; <a href="#contact">Contact</a> &middot; <a href="https://www.udataworks.com">www.udataworks.com</a></p>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
